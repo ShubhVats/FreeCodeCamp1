@@ -44,7 +44,9 @@ app.route("/").get(function (req, res) {
 
 //TEST
 app.route("/JSON").get(function (req, res) {
-  res.json({ message: "Hello json" });
+  res.json({
+    message: "Hello json",
+  });
 });
 
 //TEST
