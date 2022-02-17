@@ -44,7 +44,7 @@ app.route("/").get(function (req, res) {
 
 //TEST
 app.route("/JSON").get(function (req, res) {
-  res.sendFile("/views/hw.json");
+  res.sendFile(process.cwd() + "/views/hw.json");
 });
 
 //TEST
